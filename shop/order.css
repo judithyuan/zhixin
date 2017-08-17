@@ -1,0 +1,69 @@
+.x-row,.x-col{margin:0px;padding:0px}
+span{
+	font-family:苹方 常规;
+}
+.x-output{
+	padding:0;
+}
+.goaddr{
+	width: 10px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.form-control:focus{
+	border-color:#fff;
+}
+.store{
+    padding:0.36rem 0px;
+    border-bottom: 1px solid #eee;
+}
+.panel-heading{
+	border-radius: 3px;
+    line-height: 25px;
+    padding: 10px;
+    border-top: 5px solid #eee;
+    border-bottom: 10px solid #eee;
+}
+.ts{
+	position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 10;
+    background-color: #FF5000;
+    height: 0.1rem;
+    width: 0.1rem;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+}
+html{
+	font-size:50px;
+}
+/*规范去各种边框*/
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link,p,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	height:auto;
+	padding:0;
+}
+.x-panel.pcviMVZb-iosstatusbar >.x-panel-content,.x-panel .x-panel-content{
+    /* top: 48px; */
+    bottom: 0.98rem;
+}
+.x-panel-bottom{
+	height:0.98rem;
+}
+.x-radio input[type="radio"]:checked + label:before, .x-checkbox input[type="checkbox"]:checked + label:before{
+	background-color:#fff !import;
+}
+.myradio{
+	width:0.45rem;
+	height:0.45rem;
+	cursor: pointer;
+	color: #fff;
+	background: url('../img/user/right.png') no-repeat;
+	background-size: 0.45rem 0.45rem;
+	border: none;
+}

@@ -1,0 +1,24 @@
+.x-titlebar{
+	background-color:white;
+	color:#333333;
+	border-bottom:1px solid #eee;z-index:5;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	color:#7bc93d;
+}
+a{
+	color:#989898;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	border:none;
+	border-bottom:2px solid #7bc83e;
+}
+.nav-tabs>li>a{
+	color:#666666;
+}
+.btn-default{
+	    border-color: #7BC83E;
+}
+html{
+	font-size:50px;
+}

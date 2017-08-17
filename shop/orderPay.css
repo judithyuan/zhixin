@@ -1,0 +1,93 @@
+.shuomingno {
+	margin-top: 0;
+}
+
+.x-row,.x-col {
+	margin: 0px;
+	padding: 0px
+}
+
+span {
+	font-family: 苹方 常规;
+	color: #666;
+}
+
+input[type="radio"] {
+	display: none;
+	/*  margin-top: 0.18em; */
+}
+
+html {
+	font-size: 50px;
+}
+
+div {
+	font-size: 0.3rem;
+}
+/*标题样式*/
+h1,h2,h3,h4,h5,h6,.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link
+	{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*单选框*/
+.x-radio input[type="radio"]:checked+label:before,.x-checkbox input[type="checkbox"]:checked+label:before
+	{
+	width:0.45rem;
+	height:0.46rem;
+	cursor: pointer;
+	color: #fff;
+	background: url('../img/user/right.png') no-repeat;
+	background-size: 0.45rem 0.45rem;
+	border: none;
+}
+
+.form-control:focus {
+	border-color: #fff;
+	box-shadow: none;
+}
+
+.ts {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 10;
+	background-color: #FF5000;
+	height: 0.1rem;
+	width: 0.1rem;
+	border-radius: 100%;
+	color: white;
+	text-align: center;
+}
+
+.zhekouorder {
+	position: absolute;
+	top: -0.1rem;
+	left: 1.8rem;
+	background-color: #FF3333;
+	padding: 0 0.05rem;
+	color: white;
+	border-radius: 0.1rem;
+	font-size: 0.2rem;
+/* 	display: inline-block; */
+	
+/* 	position: absolute; */
+/*     top: 0; */
+/*     left: 9em; */
+/*     background-color: #FF3333; */
+/*     padding: 0 0.5rem; */
+/*     color: white; */
+/*     border-radius: 30px; */
+/*     font-size: 1.25rem; */
+}
+
+/*底部结算*/
+.x-panel .x-panel-bottom{
+	height:auto;
+}
+
+.noborder:last-child>.x-row{
+	border:none !important;
+}

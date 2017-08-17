@@ -1,0 +1,37 @@
+.bak{background:url('../img/bmfwimg/background.png') ;height:200px;}
+.x-titlebar{border-bottom:1px solid #eee;z-index:5;}
+.topbackgroundcolor{
+	background:linear-gradient(to top,#6ac51c,#a2ed33);
+}
+.form-control{
+	box-shadow:inset 0 1px 1px rgba(255, 255, 255, 0);
+}
+.selectyujiao{
+	position: absolute;
+    right: 0;
+    top: 7em;
+    width: 100%;
+	opacity: 0;
+}
+html{
+	font-size:50px;
+}
+/*规范去各种边框*/
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	height:auto;
+	padding:0;
+}
+
+.x-panel.pcviMVZb-iosstatusbar >.x-panel-content,.x-panel .x-panel-content{
+    /* top: 48px; */
+    bottom: 0.98rem;
+}
+
+
+.x-panel-bottom{
+	height:0.98rem;
+}

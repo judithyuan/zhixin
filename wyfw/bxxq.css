@@ -1,0 +1,9 @@
+input{border:none;}
+.form-control:focus{
+	border-color:#fff;
+	box-shadow:none;
+}
+.form-control{
+	border-color:#fff;
+	box-shadow:none;
+}

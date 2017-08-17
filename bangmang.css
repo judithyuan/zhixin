@@ -1,0 +1,29 @@
+.btn-default{
+	background-color: white;
+	color:#7bc93d;
+	border-color:7bc93d;
+	border-radius:50px;
+}
+.nav-tabs>li>a{
+	margin:0px;
+	background-color:#fff;
+	border:none;
+}
+.nav-tabs>li.active{
+	border-bottom:2px solid #7bc93d;
+}
+a{
+	color:#909090;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{color:#7bc93d;}
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
+	background-color: #7bc93d;
+	color:#d2d2d2;
+}
+.panel{
+	box-shadow: 0 1px 2px rgba(255, 255, 255, 0);
+}
+.x-titlebar .x-titlebar-title{
+	font-weight: normal;
+}

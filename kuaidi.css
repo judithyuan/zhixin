@@ -1,0 +1,88 @@
+/*这是在设计界面看效果的*/
+html{
+	font-size:50px;
+}
+
+
+.btn-default{
+	background-color: white;
+	color:#7bc93d;
+	border-color:7bc93d;
+	border-radius:50px;
+}
+.nav-tabs>li>a{
+	margin:0px;
+	background-color:#fff;
+	border:none;
+	line-height: 30px;
+}
+.nav-tabs>li{
+	border-bottom:1px solid #eee;
+}
+.nav-tabs>li.active,.nav-tabs>li.active>a{
+	border-bottom:1px solid #7bc83e;
+}
+
+a{
+	color:#909090;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{color:#7bc83e;}
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
+	background-color: #7bc83e;
+	color:#d2d2d2;
+}
+.xzBtn{
+	background-color: #7bc83e;
+	color:white;
+}
+.form-control:focus{
+	border-color:#fff;
+	box-shadow:none;
+}
+.form-control{
+	border-color:#fff;
+	box-shadow:none;
+}
+.btn-default{
+	border-color:#d2d2d2;
+}
+.abc{
+/* 	background-color: #7bc93d; */
+	color:white;
+	border-color:#7bc93d;
+/* 	background:url('../img/bmfwImg/backbtn.png') no-repeat; */
+}
+
+.btn-default.cyqiUry:hover, .btn-default.cyqiUry:focus, .btn-default.focus.cyqiUry, .btn-default.cyqiUry:active, .btn-default.active.cyqiUry, .open.cyqiUry > .dropdown-toggle.btn-default.cyqiUry{
+	background-color:white;
+}
+a.cyqiUry{
+	color:#555555;
+}
+.x-titlebar{border-bottom:1px solid #eee;z-index:5;}
+
+.x-row,.x-col{
+	padding:0;
+	margin:0;
+}
+/*规范去各种边框*/
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	height:auto;
+	padding:0;
+}
+
+/*切换*/
+.nav>li>a{
+	padding:0;
+	height:1rem;
+}
+.nav-tabs.cyqiUry > li.cyqiUry > a.cyqiUry{
+	line-height:1rem;
+}
+
+

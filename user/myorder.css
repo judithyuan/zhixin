@@ -1,0 +1,10 @@
+.x-titlebar{
+	background-color:white;
+	color:#989898;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	color:#7bc93d;
+}
+a{
+	color:#989898;
+}

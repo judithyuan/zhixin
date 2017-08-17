@@ -1,0 +1,143 @@
+.x-col{
+	padding:0;
+	text-align: -webkit-center;
+}
+p{
+	font-weight: bold;
+}
+
+.kj-img1 {
+	width: 100%;
+	height: 2.2rem; 
+}
+.searchInput{
+	background-color: #e3e3e3;
+    box-shadow: none;
+    border: none;
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    outline:none;
+    height:0.7rem;
+    
+}
+.tts{
+	display:inline-block;
+	background-color: #FF2C00;
+    color: white; 
+    border-radius: 0.1rem;
+    padding: 0.01rem 0.1rem;
+ 	/* font-size:12px;    */
+ 	width:auto;
+    right: 20%;
+    height:auto;
+    
+ }
+.carousel-indicators{
+  	position: absolute;
+  	left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom:3px;
+  }
+.ts{
+	position: absolute;
+    right: 0;
+    top:0;
+    z-index: 10;
+    background-color: #FF5000;
+    height:0.1rem;
+    width: 0.1rem;
+    border-radius:0.1rem;
+    color: white;
+    text-align: center;
+}
+ 
+ .carousel-indicators li{
+	border:none;
+	background-color: hsla(0, 100%, 100%, 0.49); 
+	border-radius:5px;
+ 	width:5px;
+ 	height:5px;
+ 	margin:1px 4px 1px 1px;
+} 
+ .carousel-indicators.cyE7Nza .active.cyE7Nza{
+ 	/* height:5px; */
+ 	border-radius:5px;
+ 	width:5px;
+ 	height:5px;
+ 	margin:1px 4px 1px 1px;
+ }
+ .carousel-indicators .active{
+ 	background-color:#fff;
+ }
+.searchInputCut{
+	background-color: #dcdcdc;;
+    box-shadow: none;
+    border: none;
+    border-radius: 25px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    float: left;
+    height:0.7rem;
+}
+.serchImg{
+	width: 0.34rem;
+    position: absolute;
+    left: 0.74rem;
+    top:0.18rem;
+}
+.panelSearch{
+	height: 5em;
+}
+.x-card.btn-group .btn.active{
+	color:#7bc93d;
+}
+.x-card.btn-group.cnURJBf .btn.active.cnURJBf{
+	color:#777;
+}
+/*左边*/
+
+.x-wing[display='compress'] > .x-wing-content.compress-on-right{
+	margin-left: 0;
+}
+.x-wing[display='reveal'] > .x-wing-content.on-right, .x-wing[display='push'] > .x-wing-content.on-right{
+	transform: translate3d(10em, 0, 0);
+}
+
+
+
+html{
+	font-size:50px;
+}
+/*规范去各种边框*/
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link,p,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	height:auto;
+	padding:0;
+}
+.x-panel.pcviMVZb-iosstatusbar >.x-panel-content,.x-panel .x-panel-content{
+    /* top: 48px; */
+    bottom: 0.98rem;
+}
+
+.x-panel-bottom{
+	height:0.98rem;
+}
+
+/*.x-popOver .x-popOver-content{
+	margin-bottom:0;
+	bottom:0;
+	left:0;
+}*/
+.x-card.btn-group .btn, .x-card.btn-group .btn:active, .x-card.btn-group .btn:focus{
+	height:0.8rem;
+	border:none;
+}
+

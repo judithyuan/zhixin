@@ -1,0 +1,37 @@
+.x-titlebar{border-bottom:1px solid #eee;z-index:5;}
+.text-orange{color:#7bc93d;}
+.btn{border:none;}
+
+.text-orange.cjAj6Vr{
+	color:#333333;
+}
+.form-control:focus{
+	border-color:#fff;
+	box-shadow:none;
+}
+.form-control{
+	border-color:#fff;
+	box-shadow:none;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	background-color: #FFF;
+}
+/*********************************************/
+html{
+	font-size:50px;
+}
+
+.form-control{
+	padding:0;
+}
+html{
+	font-size:50px;
+}
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link,p,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	padding:0;
+}
+

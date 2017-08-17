@@ -1,0 +1,33 @@
+h3,p,span{
+	font-family:苹方 常规;
+}
+span{font-size:13px;color:#333;}
+.x-titlebar{border-bottom:1px solid #eee;z-index:100}
+.x-col,.x-row{
+	padding:0px;
+	margin:0px;
+}
+.form-control:focus{    border-color: #eee;}
+.bottom-fixed{
+	width:100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 5;
+    margin-top:0.16rem;
+    padding:0 0.3rem 0.16rem 0.3rem;
+    background-color:white;
+}
+#inner img{width:100%}
+h1,h2,h3,h4,h5,h6,.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+html{
+	font-size:50px;
+}
+input[placeholder]{
+	font-size:0.26rem;
+}
+div{
+	font-size:0.3rem;
+}

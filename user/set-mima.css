@@ -1,0 +1,37 @@
+html{
+	font-size:50px;
+}
+div{
+	font-size:0.3rem;
+}
+/*标题样式*/
+h1,h2,h3,h4,h5,h6,.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+.correct{
+	top:0.1rem;
+}
+
+.x-titlebar{
+	background-color:white;
+	color:#989898;
+}
+.x-label25.x-label-edit > .x-edit{
+	border:none;
+}
+.x-label-edit, .x-label-edit.x-label-left{
+	border-bottom:1px solid #eeeeee;
+	
+}
+input[placeholder]{
+	color:#cccccc;
+}
+.form-control:focus{
+	border-color:#fff;
+	box-shadow:none;
+}
+.form-control{
+	border-color:#fff;
+	box-shadow:none;
+}

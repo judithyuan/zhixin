@@ -1,0 +1,32 @@
+.form-controls::-webkit-input-placeholder{
+	color:#999999;
+}
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+.top{
+	line-height:48px !important;color:#333 !important;background-color:#fafafa !important;font-size:0.36rem !important;border-bottom:1px solid #e5e5e5 !important;
+}
+.top-left{
+	padding-left:0 !important;;
+}
+.left-btn{
+	font-size:0.6rem !important;height:48px !important;line-height:48px !important;padding-left:0.4rem !important;
+}
+.top-right{
+	padding-right:0.3rem !important;
+}
+.right-btn{
+	font-size:0.26rem;height:100% !important;color:#999 !important;line-height:48px !important;
+}
+.top-semi-circle {
+	border-radius: 150px 150px 0 0;
+	height: 75px;
+}
+.bottom-semi-circle{
+	border-radius: 0 0 150px 150px;
+	height: 1rem;
+	background-color:#F2493E;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}

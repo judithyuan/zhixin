@@ -1,0 +1,13 @@
+.x-col{margin:0px;padding:0px;}
+.x-row{margin:0px;padding:0px;line-height:50px;}
+div{
+	fontsize:0.3rem;
+}
+html{
+	font-size:50px;
+}
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+

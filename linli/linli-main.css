@@ -1,0 +1,90 @@
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{color:#7bc93d;}
+/* .nav-tabs>li.active{
+	border-bottom:2px solid #7bc93d;
+} */
+a{
+	color:#333333;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	border: 1px solid #FFF;
+}
+.x-card.btn-group .btn.active{
+	color:#666666;
+}
+.x-titlebar{
+	border-bottom: 1px solid #e6e6e6;z-index:5; 
+}
+.spanborder{
+	  /*   display: inline-block; */
+	float:left;
+    width: 1px;
+    background: #eee;
+    height: 24px;
+    margin: 10px 0px;
+}
+@media screen and (max-width: 360px) {
+    .ejiatitle{
+        max-width:3rem;
+    }
+}
+@media screen and (min-width: 375px) {
+    .ejiatitle{
+        max-width:4rem;
+    }
+}
+.nav-tabs.cQvQbQf > li.active.cQvQbQf > a.cQvQbQf, .nav-tabs.cQvQbQf > li.active.cQvQbQf > a.cQvQbQf:hover, .nav-tabs.cQvQbQf > li.active.cQvQbQf > a.cQvQbQf:focus
+{
+	border: none;
+    border-bottom: 0.06rem solid #7bc83e;
+    color:#7bc83e;
+   
+}
+/* .nav-tabs.cQvQbQf > li.active.cQvQbQf > a.cQvQbQf, .nav-tabs.cQvQbQf > li.active.cQvQbQf > a.cQvQbQf:hover, .nav-tabs.cQvQbQf > li.active.cQvQbQf > a.cQvQbQf:focus,.nav-tabs.cYVFfEb{
+	border: none;
+    border-bottom: 4px solid #7bc83e;
+    color:#76c83e;
+} */
+.nav-tabs>li>a{
+	height:1rem !important;
+	line-height:1rem;
+/* 	padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #fff;
+    border-top: 1px solid #fff; */
+   /* padding: 0 0.1rem 0.2rem !important;
+    height:auto !important;*/
+}
+/* .active-tab{
+	border-bottom:1px solid #7bc83e;
+	color:#76c83e;
+} */
+html{
+	font-size:50px;
+}
+/* 标题和重置 */
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+
+/* 底部按钮 */
+
+.x-card.btn-group .btn, .x-card.btn-group .btn:active, .x-card.btn-group .btn:focus{
+	height:0.8rem;
+	border:none;
+}
+.ts{
+	position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 10;
+    background-color: #FF5000;
+    height: 0.1rem;
+    width: 0.1rem;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+}
+.bottomFont{
+	color:#7bc83e !important;
+}

@@ -1,0 +1,15 @@
+html{
+	font-size:50px;
+}
+/* 按钮可用 */
+.availableBtn{
+	background-color:#ff9626 !important;color:white !important;
+}
+/*按钮不可用*/
+
+ .disabledBtn{
+ 	background-color:#eeeeee;color:white;
+ }
+.activity-content img{
+	max-width:100%;
+}

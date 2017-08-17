@@ -1,0 +1,15 @@
+.x-titlebar{
+	background-color: white;
+	color:#989898;
+}
+.form-control:focus{
+	border-color:#fff;
+	box-shadow:none;
+}
+.form-control{
+	border-color:#fff;
+	box-shadow:none;
+}
+html{
+	font-size:50px;
+}

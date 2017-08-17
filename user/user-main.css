@@ -1,0 +1,56 @@
+html{
+	font-size:50px;
+}
+div{
+	font-size:0.3rem;
+}
+/*重置样式*/
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+
+/*标题样式*/
+h1,h2,h3,h4,h5,h6,.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link,.x-panel-top{
+	padding:0;
+	margin:0;
+}
+/* 底部按钮 */
+
+.x-card.btn-group .btn, .x-card.btn-group .btn:active, .x-card.btn-group .btn:focus{
+	height:0.8rem;
+	border:none;
+}
+
+
+
+.x-popOver .x-popOver-overlay{
+	background-color: #585858;
+}
+.ts{
+	position: absolute;
+    right: 0;
+    top:0;
+    z-index: 10;
+    background-color: #FF5000;
+    height:0.1rem;
+    width: 0.1rem;
+    border-radius:0.1rem;
+    color: white;
+    text-align: center;
+}
+.tts{
+	display:inline-block;
+	background-color: #FF2C00;
+    color: white; 
+    border-radius: 5px;
+    font-size: 0.6em;
+    padding: 0rem 0rem;
+ 	/* font-size:12px;    */
+ 	width: 1.7rem;
+    height: 1.2rem;
+    right: 0.6rem;
+ }
+ .bottomFont{
+	color:#7bc83e !important;
+}

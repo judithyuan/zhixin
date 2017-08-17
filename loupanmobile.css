@@ -1,0 +1,44 @@
+html{
+	font-size:50px;
+}
+div{
+	font-size:0.3rem;
+}
+/*标题样式*/
+h1,h2,h3,h4,h5,h6,.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+.correct{
+	top:0.1rem;
+}
+
+.x-titlebar-title{
+	font-weight:normal;
+}
+input[type="radio"] {
+  margin: 3px 3px 0px 5px;
+  display: none;
+}
+
+.x-radio input[type="radio"]:checked + label:before, .x-checkbox input[type="checkbox"]:checked + label:before{
+  cursor: pointer;
+  background: url('img/user/right.png') no-repeat;
+  background-size:0.5rem 0.5rem;
+  border:none;
+}
+.form-control{
+	-webkit-box-shadow:0 0 0 transparent;
+}
+.form-control:focus{
+	border-color:#fff;
+	box-shadow:none;
+}
+.alert-info{
+	background-image:linear-gradient(to bottom, #000000 0, #0C191F 100%);
+	color:white;
+}
+.x-hint{
+	width:150px;
+	margin-left:-75px;
+}

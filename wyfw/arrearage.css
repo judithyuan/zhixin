@@ -1,0 +1,59 @@
+
+input[type="radio"] {
+  margin: 3px 3px 0px 5px;
+  display: none;
+}
+
+.x-radio input[type="radio"] + label:before{
+	width:22px;
+	height:22px;	
+}
+
+.x-radio input[type="radio"]:checked + label:before, .x-checkbox input[type="checkbox"]:checked + label:before{
+  padding-left: 20px;
+  cursor: pointer;
+  background-size:22px 22px;
+  border:none;
+  background: url('../img/user/right.png') no-repeat;
+  background-position:-3px -3px;
+}
+.zhifu{
+	margin-top: 12px;
+}
+.zhifus{
+	margin-top: 0px;
+}
+.x-popOver .x-popOver-content{
+	left:0;
+}
+.titleyh{
+	margin-top:15px;
+}
+.shuomingyes{
+    margin-top: 12px;
+}
+.shuomingno{
+	margin-top : 0;
+}
+.x-col{margin:0px;padding:0px;}
+.x-row{margin:0px;padding:0px;border-bottom:1px solid #eee;}
+
+html{
+	font-size:50px;
+}
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link,p,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	height:auto;
+	padding:0;
+}
+
+.x-panel.pcviMVZb-iosstatusbar >.x-panel-content,.x-panel .x-panel-content{
+    bottom: 0.98rem;
+}
+
+.noborder:last-child>.x-row{
+	border:none !important;
+}

@@ -1,0 +1,23 @@
+html{
+	font-size:50px;
+}
+.errLeftBtn{
+	color:#fdc1bd;
+	border:1px solid #fdc1bd;
+	border-radius:5px;
+}
+.sucLeftBtn{
+	color:#7bc83e;
+	border:1px solid #7bc83e;
+	border-radius:5px;
+}
+.sucRightBtn{
+	color:#e3e3e3;
+	border:1px solid #e3e3e3;
+	border-radius:5px;
+}
+.errRightBtn{
+	color:#7bc83e;
+	border:1px solid #7bc83e;
+	border-radius:5px;
+}

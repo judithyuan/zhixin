@@ -1,0 +1,66 @@
+html{
+	font-size:50px;
+}
+div{
+	font-size:0.3rem;
+}
+/*标题样式*/
+h1,h2,h3,h4,h5,h6,.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+
+
+/*去支付*/
+.zhifustater{
+	border-color:#ff3333;
+	color:#ff3333;
+}
+.zhifustateg{
+	border-color:#999999;
+	color:#999999;
+}
+/*支付状态*/
+.Tzhifustater{
+/* 	border-color:#ff3333; */
+	color:#ff3333;
+}
+.Tzhifustateg{
+/* 	border-color:#999999; */
+	color:#7bc83e;
+}
+/* /*删除状态*/ */
+.scState{
+/* 	border-color:#ff3333; */
+	color:#999999;
+}
+/* .Tzhifustateg{ */
+/* /* 	border-color:#999999; */ */
+/* 	color:#7bc93d; */
+/* } */
+
+
+/*订单状态选中下划线*/
+
+.focus-btn{
+	border-bottom:2px solid #7bc83e !important;
+}
+.x-titlebar .x-titlebar-title{
+	font-weight: normal;
+}
+.btn-group > .btn:hover, .btn-group-vertical > .btn:hover, .btn-group > .btn:focus, .btn-group-vertical > .btn:focus, .btn-group > .btn:active, .btn-group-vertical > .btn:active, .btn-group > .btn.active, .btn-group-vertical > .btn.active{
+	border-bottom:2px solid #7bc83e
+}
+.red{color:#ff3333}
+.bak{color:#333333}
+.gre{color:#7bc93d}
+/*导航 */
+
+.x-nav.x-row ,.x-nav .x-col{ padding:0; background-color:#fafafa;}
+.x-nav .x-col:nth-child(1){ overflow:hidden;}
+.x-nav .x-col:nth-child(2){ width:0.5rem;}
+.x-nav .x-col .x-navbox{ padding:0.34rem 0;overflow-x:scroll; overflow-y:hidden;/* position:relative;*/}
+.x-nav .x-col .x-navbox .x-list{ width:auto !important; white-space:nowrap; text-overflow:ellipsis; }/*position:absolute;*/
+/*.x-nav{ height:75px; border-top:0; font-weight:normal; color:#999;}*/
+.x-nav .btn.current{ height:0.75rem; border-bottom:1px solid #ea413c; color:#ea413c; }
+.x-nav .navMoreBtn{ background-color:#e1e1e1;}

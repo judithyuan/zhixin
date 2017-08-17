@@ -1,0 +1,103 @@
+.bg-white{ background-color:#fff;}/*白色背景*/
+.text-black{ color:#555;}
+.cartimg{background: url('img/user/right.png') no-repeat;}
+.x-radio input[type="radio"]:checked + label:before, .x-checkbox input[type="checkbox"]:checked + label:before{
+	width:0.4rem;
+	height:0.4rem;
+	color:transparent;
+	background:url("$UI/zhixin/img/bmfwImg/jb.png") no-repeat;
+	background-size:0.4rem 0.4rem;
+	border:none;
+}
+.x-checkbox input[type="checkbox"] + label:before{
+	background-color:#f5f5f5;
+}
+
+.x-checkbox.cmy63Iz input[type="checkbox"].cmy63Iz + label.cmy63Iz:before{
+	background-color:transparent;
+}
+.x-checkbox input[type="checkbox"]:checked + label:before{
+	content:"" !important;
+}
+.x-radio input[type="radio"],.x-checkbox input[type="checkbox"]{
+	width:0.4rem;
+	height:0.4rem;
+}
+.x-radio input[type="radio"]{
+	width:0.4rem;
+	height:0.4rem;
+}
+.x-currentRow{
+	background:red;
+}
+html{
+	font-size:50px;
+}
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link.x-radio, .x-checkbox,button{
+	padding:0;
+	margin:0;
+}
+/*标题样式*/
+
+.x-titlebar{ background-color:#fafafa;}
+
+.tb-box{ margin-bottom:0;}
+.tb-del-line{ text-decoration:line-through;}/*删除线*/
+.tb-img-shop{ width:0.4rem; height:0.4rem;}
+.tb-img-good{ width:100%; height:100%;}
+div{
+	font-size:0.3rem;
+}
+.delet{
+	background-color: #FF9900;
+}
+.delets{
+	background-color: #fff;
+}
+/*商品 */
+.tb-goodList .h5{     max-height: 0.66rem;line-height:0.33rem;overflow:hidden; text-overflow:ellipsis;}
+
+/*底部结算**/
+.x-panel-bottom{ border-top:1px solid #dcdcdc;}
+/*.tb-settlement{ line-height:40px; background-color:#ff9900; color:#fff; font-size:16px;}*/
+.x-panel .x-panel-bottom{
+	height:auto;
+}
+.no-choose-btn{
+/* 	background:#e3e3e3; */
+	color:#ffffff;
+}
+/* .x-radio input[type="radio"]:checked + label:before, .x-checkbox input[type="checkbox"]:checked + label:before{ */
+	
+/* } */
+.x-checkbox input[type="checkbox"] + label:before{
+	border-radius: 0.3rem;
+	border: 1px solid #999999;
+}
+
+/*左右滑动后商品信息左移*/
+.move{
+	margin-left:-1.5rem;
+}
+@keyframes moveleft
+{
+from {right: 0;}
+to {margin-left: -1.5rem;}
+}
+.move-left{
+	animation:moveleft 3000ms;
+}
+/*商铺的第一个没有20的间距*/
+.tb-box:first-child>.show{
+	display:none !important;
+}
+/*最后一个没有下内边距*/
+.tb-box:last-child{
+	border-bottom:0;
+}
+ul{
+	margin:0;
+}
+.x-panel .x-panel-content{
+	bottom:0.98rem;
+}

@@ -1,0 +1,21 @@
+h3,p,span{
+	font-family:苹方 常规;
+}
+span{font-size:13px;color:#333;}
+.x-titlebar{border-bottom:1px solid #eee;z-index:100}
+.x-col,.x-row{
+	padding:0px;
+	margin:0px;
+}
+.form-control:focus{    border-color: #eee;}
+.pl{
+	/* padding: 10px 10px; */
+    position: fixed;
+    bottom: 0px;
+    /* margin-bottom: 10px; */
+    width: 100%;
+    z-inex: 100px;
+    background: #fff;
+    border-bottom: 10px solid #eee;
+}
+#inner2 img{width:100%}

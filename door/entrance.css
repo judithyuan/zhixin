@@ -1,0 +1,11 @@
+.x-titlebar{border-bottom:1px solid #eee;z-index:5;}
+.x-col{margin:0px;padding:0px;}
+.x-row{margin:0px;padding:0px;}
+html{
+	font-size:50px;
+}
+div{
+	font-size:0.3rem;
+}
+/* 标题和重置 */
+

@@ -1,0 +1,31 @@
+.text-orange{color:#cccccc;}
+body{
+	background-color: #ffffff;
+}
+.x-panel-content{background-color:#eeeeee;}
+.x-titlebar{border-bottom:1px solid #eee;z-index:5;}
+.btn-default{border:1px solid #ff3226;color:#fff;background-color:#ff3226;}
+.x-radio input[type="radio"]:checked + label:before, .x-checkbox input[type="checkbox"]:checked + label:before{background-color:#FC4C59;border:transparent;}
+.x-label-edit{background-color:white}
+.x-titlebar .x-titlebar-title{
+	font-weight: normal;
+	color:#333333;
+}
+.form-control{
+	border:none;
+	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0);
+	
+}
+
+/*********************************************************/
+html{
+	font-size:50px;
+}
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link,p,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	height:auto;
+	padding:0;
+}

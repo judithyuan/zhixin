@@ -1,0 +1,48 @@
+.x-panel{
+/* 	background:url(./img/logobac.png) no-repeat;background-size: 100% 100%;  */
+/* 	background-color: white; */
+}
+/* 按钮边框颜色 */
+.btn-default{
+	border-color:#7bc83e;
+}
+.form-control:focus{
+	border-color:#333333;
+	box-shadow:none;
+}
+.form-control{
+	border-color:#fff;
+	box-shadow:none;
+}
+.btn-default.cBZVBZj{
+	    border-color: rgba(123, 201, 61, 0);
+}
+.form-control::-webkit-input-placeholder{
+	color:#333333;
+}
+.x-titlebar .x-titlebar-title{
+	font-weight: normal;
+}
+input[type="radio"] {
+  margin: 3px 3px 0px 5px;
+  display: none;
+}
+
+.x-radio input[type="radio"]:checked + label:before, .x-checkbox input[type="checkbox"]:checked + label:before{
+  padding-left: 20px;
+  cursor: pointer;
+  background: url('img/user/right.png') no-repeat;
+  background-size:22px 22px;
+  border:none;
+}
+html{
+	font-size:50px;
+}
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link,p,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	height:auto;
+	padding:0;
+}

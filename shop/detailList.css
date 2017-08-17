@@ -1,0 +1,45 @@
+html{
+	font-size:50px;
+}
+div{
+	font-size:0.3rem;
+}
+/*标题样式*/
+h1,h2,h3,h4,h5,h6,.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+
+.searchInput{
+	background-color: #F0F0F0;
+    box-shadow: none;
+    border: none;
+    border-radius: 0.3rem;
+    outline:none;
+    
+}
+.searchInputCut{
+	background-color: #F0F0F0;
+    box-shadow: none;
+    border: none;
+}
+.serchImg{
+	width: 0.3rem;
+    position: absolute;
+    left: 0.25rem;
+    top:0.12rem;
+}
+.panelSearch{
+	height: 5em;
+}
+.btn-link{
+	color:#333333;
+}
+.btn:active, .btn.active{
+/* 	border-bottom:2px solid #7bc93d; */
+	color: #7bc83e;
+}
+
+.noborder:last-child>.x-row{
+	border:none !important;
+}

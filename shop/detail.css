@@ -1,0 +1,91 @@
+html{
+	font-size:50px;
+}
+*{
+	margin:0;
+	padding:0;
+}
+div{
+	font-size:0.3rem;
+}
+.active{
+	color:#7bc83e;
+}
+/*标题样式*/
+h1,h2,h3,h4,h5,h6,.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+
+
+.btn:active, .btn.active{
+	border-bottom:2px solid #7bc83e;
+	color:#7bc83e;
+}
+.tts{
+	display:inline-block;
+	background-color: #FF2C00;
+    color: white; 
+    border-radius: 0.1rem;
+    font-size: 0.18rem;
+    padding: 0.01rem 0.1rem;
+ 	/* font-size:12px;    */
+ 	width:auto;
+    right: 10%;
+    height:auto;
+ }
+#imagelogo{  
+
+}
+
+.x-list-template{
+	display:flex;
+	justify-content: space-between;
+}
+/*推荐商品间距*/
+.goods-margin{
+}
+/*去除panel*/
+.panel .panel-default{
+	border:none;
+}
+.xqbox img{
+	width:100%;
+}
+/*颜色选择*/
+.xzgg{
+	background-color: #ff9933;
+	color:#fff;
+}
+.wxzgg{
+	background-color: #999999;
+	color: #333333;
+}
+.tpop{ 
+	position:absolute;
+	bottom:0; 
+	left:0; 
+	width:100%;
+	height:0;
+	background-color:#fafafa;
+	z-index: 10;
+/* 	margin: 0.5em; */
+/* 	border: 1px solid #cccccc; */
+/* 	top:-0.5em */
+}
+.imgt{
+    width: 100%;
+    max-width: 11em;
+    min-width: 2em;
+    max-height: 20em;
+    min-height: 8em;
+    height: 100%;
+    position: absolute;
+    margin: 0.5em;
+    border: 1px solid rgb(204, 204, 204);
+    top: -4.5em;
+}
+
+/*底部结算**/
+.btn.x-gray{border-color: #cccccc;    background-color: #fafafa;color: #ccc;}
+.tb-settlement{ line-height:40px; background-color:#FF3225; color:#fff; font-size:16px;}

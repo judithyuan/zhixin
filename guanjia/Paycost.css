@@ -1,0 +1,52 @@
+/*这是在设计界面看效果的*/
+html{
+	font-size:50px;
+}
+
+.x-titlebar{border-bottom:1px solid #eee;z-index:5;}
+.x-row,.x-col{margin:0px;padding:0px}
+span{
+	font-family:苹方 常规;
+	color:#666;
+}
+/*规范去各种边框*/
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	height:auto;
+	padding:0;
+}
+
+/*为了有优惠，高度不同*/
+.tnull{
+	height:1rem !important;
+	padding-top:0.32rem !important;
+}
+.aheight{
+	height:1.2rem !important;
+}
+.imgnotnull{
+	margin-top:0.37rem !important;
+}
+.bnotnull{
+	height:1.2rem !important;
+	line-height:1.2rem !important;
+}
+
+.jiaofei:last-child>.x-row{
+	border:none;
+}
+.ts{
+	position: absolute;
+    right: 0;
+    top:0;
+    z-index: 10;
+    background-color: #FF5000;
+    height:0.1rem;
+    width: 0.1rem;
+    border-radius:0.1rem;
+    color: white;
+    text-align: center;
+}

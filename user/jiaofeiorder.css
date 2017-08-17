@@ -1,0 +1,44 @@
+.x-titlebar{
+	background-color:white;
+	color:#989898;
+	border-bottom:1px solid #eee;z-index:5;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	color:#7bc83e;
+}
+a{
+	color:#989898;
+
+}
+.nav>li>a{
+	padding-left: 0;
+    padding-right: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	border:none;
+	border-bottom:2px solid #7bc83e;
+}
+.x-titlebar .x-titlebar-title{
+	font-weight: normal;
+}
+
+/*********************************************/
+html{
+	font-size:50px;
+}
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link,p,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	padding:0;
+}
+.orderNum{
+	margin-left:0.3rem;
+	margin-right:0.3rem;
+	border-bottom:1px solid #eee;
+}
+.col-content{
+	padding-left:0.3rem;
+	padding-right:0.3rem;
+}

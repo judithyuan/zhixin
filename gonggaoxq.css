@@ -1,0 +1,26 @@
+.panel{
+	border-radius:0;
+/* 	border-bottom: 1px dashed #000000; */
+	border:none;
+	margin-bottom:0;
+	box-shadow: 0 1px 2px rgba(255, 255, 255, 0);
+}
+.panel-body{
+	padding:0;
+}
+.x-col{
+	padding:0;
+}
+.panel.cjiEFzy{
+	border-radius:5px;
+}
+.panel.cjiEFzy.cjiEFzy{
+	border-radius:0;
+}
+.x-titlebar .x-titlebar-title{
+	font-weight: normal;
+}
+.output2gonggao img{
+	width:100%;
+}
+.x-titlebar{border-bottom:1px solid #eee;z-index:5;}

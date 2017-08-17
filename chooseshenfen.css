@@ -1,0 +1,13 @@
+.text-orange{color:#cccccc;}
+body{
+	background-color: #eeeeee;
+}
+.x-panel-content{background-color:#eeeeee;}
+.x-titlebar{border-bottom:1px solid #eee;z-index:5;}
+.btn-default{border:1px solid #ff3226;color:#fff;background-color:#ff3226;}
+.x-radio input[type="radio"]:checked + label:before, .x-checkbox input[type="checkbox"]:checked + label:before{background-color:#FC4C59;border:transparent;}
+
+
+.btn-link{
+	color:#d2d2d2;
+}

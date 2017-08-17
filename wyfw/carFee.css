@@ -1,0 +1,30 @@
+.x-col{margin:0px;padding:0px;}
+.x-row{margin:0px;padding:0px;line-height:40px;}
+.btn{border:none;}
+.sc{
+	background-color: #7bc93d;
+	color:white;
+	border:none;
+}
+.dsc{
+/* 	background-color: #eeeeee; */
+	background-color: #989898;
+	color:white;
+	border:none;
+}
+.x-titlebar{
+	height:48px;
+}
+.x-titlebar{border-bottom:1px solid #eee;z-index:5;}
+html{
+	font-size:50px;
+}
+/*规范去各种边框*/
+.x-col,.x-list,.x-row,.x-label-edit,p,.x-titlebar .x-titlebar-title,.x-titlebar-left,.x-titlebar-right,.btn-link{
+	padding:0;
+	margin:0;
+}
+.form-control{
+	height:auto;
+	padding:0;
+}
